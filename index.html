@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Priyanka Rose — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="bg-glow" aria-hidden="true"></div>
+
+    <header class="header">
+      <a href="#home" class="logo">Mizanur Rahman</a>
+      <button
+        type="button"
+        class="nav-toggle"
+        aria-label="Open menu"
+        aria-expanded="false"
+      >
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" aria-label="Primary">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#portfolio" class="nav-link">Portfolio</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-inner">
+          <div class="hero-content">
+            <p class="greeting">Hi, Myself</p>
+            <h1 class="name">Mizanur</h1>
+            <p class="tagline">
+              And I'm a <span class="tagline-accent">Python &amp; Telegram Bot Developer</span>
+            </p>
+            <p class="description">
+              I build and maintain Telegram bots with Python—commands, menus,
+              webhooks, and integrations—so users get fast, reliable automation
+              right inside Telegram.
+            </p>
+
+            <div class="socials" aria-label="Social links">
+              <a href="https://www.facebook.com/personal.mizan/" class="social" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+                  <path d="M13.5 22v-8h3l.5-4h-4V8c0-1 .5-2 2-2h2V3h-3c-3 0-4 2-4 4v3h-3v4h3v8h4z" />
+                </svg>
+              </a>
+
+              <a href="https://www.linkedin.com/in/mohammad-rahman-320836259/" class="social" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+                  <path d="M6.5 6.5a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM4 22V8h5v14H4zm8 0V8h4.8v2h.1c1.6-2 4.4-2.4 6.8-1.2 1.8.9 2.8 2.9 2.8 5.6V22h-5v-6.5c0-2.6-1-4-3-4-1.7 0-2.7 1.2-3.2 2.3-.2.4-.3 1-.3 1.7V22h-5z" />
+                </svg>
+              </a>
+              <a href="https://github.com/Mizanur7464" class="social" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+                  <path d="M12 2C6.5 2 2 6.6 2 12.1c0 4.4 2.9 8.2 6.8 9.5.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.4-3.4-1.4-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.6 2.3 1.1 2.9.9.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.8-4.6 5 .4.3.7 1 .7 2v3c0 .3.2.6.7.5A10 10 0 0 0 22 12.1C22 6.6 17.5 2 12 2z" />
+                </svg>
+              </a>
+            </div>
+
+            <a href="#about" class="btn-cta">READ MORE</a>
+          </div>
+
+          <div class="hero-visual">
+            <div class="profile-ring">
+              <div class="profile-frame">
+                <img
+                  class="profile-img"
+                  src="images/profile.jpg"
+                  data-fallback-src="https://images.unsplash.com/photo-1573496359142-b8d87734a21a?auto=format&amp;fit=crop&amp;w=900&amp;h=1100&amp;q=80"
+                  width="900"
+                  height="1100"
+                  alt="Mizanur Rahman"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section section--muted about-section">
+        <h2 class="section-title">About</h2>
+        <div class="about-grid">
+          <div class="about-col about-col--text">
+            <p class="section-text about-text">
+              I am <strong>Mizanur Rahman</strong>, and I spend most of my time in
+              <strong>Python</strong> building <strong>Telegram bots</strong>—from
+              simple command handlers to richer flows with keyboards, inline queries,
+              and background jobs. I care about clear structure, error handling, and
+              keeping bots responsive when traffic grows. I am comfortable with the
+              Telegram Bot API, async code, and the usual toolkit around deployment
+              and maintenance. Whether it is a personal helper bot or something for a
+              wider audience, I like shipping tools that feel straightforward for users
+              and easy for other developers to read and extend.
+            </p>
+          </div>
+          <aside
+            class="about-col about-col--visual about-col--python"
+            aria-label="Python Telegram bot code preview"
+          >
+            <div class="about-visual-glow about-visual-glow--python" aria-hidden="true"></div>
+            <div class="about-code-window about-code-window--python">
+              <div class="about-code-window__toolbar" aria-hidden="true">
+                <span class="about-code-window__dot"></span>
+                <span class="about-code-window__dot"></span>
+                <span class="about-code-window__dot"></span>
+                <span class="about-code-window__filename">telegram_bot.py</span>
+              </div>
+              <pre class="about-code-window__pre"><code><span class="tok-kw">import</span> os
+<span class="tok-kw">from</span> telegram <span class="tok-kw">import</span> Update
+<span class="tok-kw">from</span> telegram.ext <span class="tok-kw">import</span> (
+    Application,
+    CommandHandler,
+)
+
+<span class="tok-kw">async def</span> <span class="tok-name">start</span>(update: Update, ctx):
+    <span class="tok-kw">await</span> update.message.reply_text(
+        <span class="tok-str">"Hello — your Python bot is online."</span>
+    )
+
+<span class="tok-name">app</span> = (
+    Application.builder()
+    .token(os.environ[<span class="tok-str">"BOT_TOKEN"</span>])
+    .build()
+)
+<span class="tok-name">app</span>.add_handler(CommandHandler(<span class="tok-str">"start"</span>, start))
+<span class="tok-name">app</span>.run_polling()  <span class="tok-comment"># Telegram long‑poll</span></code></pre>
+            </div>
+            <div class="about-stack-chips" aria-hidden="true">
+              <span class="about-chip">Python</span>
+              <span class="about-chip">Telegram Bot API</span>
+              <span class="about-chip">python-telegram-bot</span>
+              <span class="about-chip">asyncio</span>
+            </div>
+            <p class="about-brackets about-brackets--py" aria-hidden="true">.py</p>
+          </aside>
+        </div>
+      </section>
+      <section id="services" class="section services-section">
+        <h2 class="section-title">Services</h2>
+        <p class="section-text services-lead">
+          Here is what I do for clients and teams—mostly around
+          <strong>Python</strong> and <strong>Telegram bots</strong>, end to end.
+        </p>
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+              </svg>
+            </div>
+            <h3 class="service-card__title">Custom Telegram bots</h3>
+            <p class="service-card__text">
+              New bots from scratch: goals, commands, structure, and clean Python code
+              you can grow later.
+            </p>
+          </article>
+          <article class="service-card">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M8 9h8M8 13h5M4 6h16v12H4V6z" />
+              </svg>
+            </div>
+            <h3 class="service-card__title">Commands &amp; flows</h3>
+            <p class="service-card__text">
+              /start, admin tools, multi-step dialogs, and guardrails so users do not
+              get lost or break the bot by accident.
+            </p>
+          </article>
+          <article class="service-card">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="3" y="5" width="18" height="14" rx="2" />
+                <path d="M7 15h4M13 15h4M7 11h10" />
+              </svg>
+            </div>
+            <h3 class="service-card__title">Menus &amp; inline keyboards</h3>
+            <p class="service-card__text">
+              Reply keyboards, inline buttons, callbacks, and tidy UX so actions feel
+              fast inside Telegram.
+            </p>
+          </article>
+          <article class="service-card">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <ellipse cx="12" cy="6" rx="8" ry="3" />
+                <path d="M4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6" />
+              </svg>
+            </div>
+            <h3 class="service-card__title">Data &amp; APIs</h3>
+            <p class="service-card__text">
+              Hooking bots to REST APIs, sheets, or databases so your automation stays
+              in sync with real data.
+            </p>
+          </article>
+          <article class="service-card">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M13 2L3 14h8l-1 8 10-12h-8l1-8z" />
+              </svg>
+            </div>
+            <h3 class="service-card__title">Webhooks &amp; deployment</h3>
+            <p class="service-card__text">
+              Long polling or webhooks, environment config, and practical deployment so
+              the bot stays online and easy to redeploy.
+            </p>
+          </article>
+          <article class="service-card">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="12" cy="12" r="3" />
+                <path d="M12 5v2M12 17v2M5 12h2M17 12h2M7.5 7.5l1.5 1.5M15 15l1.5 1.5M7.5 16.5l1.5-1.5M15 9l1.5-1.5" />
+              </svg>
+            </div>
+            <h3 class="service-card__title">Fixes, upgrades &amp; consulting</h3>
+            <p class="service-card__text">
+              Debugging slow or broken bots, library upgrades, rate limits, and code
+              review so your project stays maintainable.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section id="portfolio" class="section section--muted portfolio-section">
+        <h2 class="section-title">Portfolio</h2>
+        <p class="section-text portfolio-lead">
+          A few project-style snapshots—replace titles, links, and copy with your real
+          Telegram bots and Python work when you are ready to publish them.
+        </p>
+        <div class="portfolio-grid">
+          <article class="portfolio-card">
+            <div class="portfolio-card__thumb portfolio-card__thumb--1" aria-hidden="true">
+              <span class="portfolio-card__thumb-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25">
+                  <rect x="5" y="11" width="14" height="10" rx="2" />
+                  <circle cx="9" cy="16" r="0.75" fill="currentColor" stroke="none" />
+                  <path d="M12 3v5M9 8h6" />
+                </svg>
+              </span>
+            </div>
+            <div class="portfolio-card__body">
+              <span class="portfolio-card__badge">Telegram bot</span>
+              <h3 class="portfolio-card__title">Shop order alerts</h3>
+              <p class="portfolio-card__desc">
+                Sends instant Telegram notifications when new orders land, with quick
+                action buttons for staff.
+              </p>
+              <div class="portfolio-card__meta">
+                <span class="portfolio-pill">Python</span>
+                <span class="portfolio-pill">Webhooks</span>
+              </div>
+              <button type="button" class="portfolio-card__link" data-project="shop">
+                View details
+              </button>
+            </div>
+          </article>
+          <article class="portfolio-card">
+            <div class="portfolio-card__thumb portfolio-card__thumb--2" aria-hidden="true">
+              <span class="portfolio-card__thumb-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
+                </svg>
+              </span>
+            </div>
+            <div class="portfolio-card__body">
+              <span class="portfolio-card__badge">Telegram bot</span>
+              <h3 class="portfolio-card__title">Community moderation</h3>
+              <p class="portfolio-card__desc">
+                Report queue, admin-only commands, and lightweight logging so moderators
+                can act without leaving the chat.
+              </p>
+              <div class="portfolio-card__meta">
+                <span class="portfolio-pill">aiogram</span>
+                <span class="portfolio-pill">SQLite</span>
+              </div>
+              <button type="button" class="portfolio-card__link" data-project="moderation">
+                View details
+              </button>
+            </div>
+          </article>
+          <article class="portfolio-card">
+            <div class="portfolio-card__thumb portfolio-card__thumb--3" aria-hidden="true">
+              <span class="portfolio-card__thumb-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25">
+                  <path d="M12 8v4l3 3M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z" />
+                </svg>
+              </span>
+            </div>
+            <div class="portfolio-card__body">
+              <span class="portfolio-card__badge">Automation</span>
+              <h3 class="portfolio-card__title">Subscription reminders</h3>
+              <p class="portfolio-card__desc">
+                Scheduled checks and friendly DM reminders before renewals—fewer churns,
+                less manual spreadsheet work.
+              </p>
+              <div class="portfolio-card__meta">
+                <span class="portfolio-pill">asyncio</span>
+                <span class="portfolio-pill">Cron</span>
+              </div>
+              <button type="button" class="portfolio-card__link" data-project="subscription">
+                View details
+              </button>
+            </div>
+          </article>
+          <article class="portfolio-card">
+            <div class="portfolio-card__thumb portfolio-card__thumb--4" aria-hidden="true">
+              <span class="portfolio-card__thumb-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25">
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+                </svg>
+              </span>
+            </div>
+            <div class="portfolio-card__body">
+              <span class="portfolio-card__badge">Telegram bot</span>
+              <h3 class="portfolio-card__title">Personal assistant</h3>
+              <p class="portfolio-card__desc">
+                Quick notes, pinned snippets, and slash shortcuts so one inbox stays the
+                hub for daily micro-tasks.
+              </p>
+              <div class="portfolio-card__meta">
+                <span class="portfolio-pill">Python</span>
+                <span class="portfolio-pill">Inline mode</span>
+              </div>
+              <button type="button" class="portfolio-card__link" data-project="assistant">
+                View details
+              </button>
+            </div>
+          </article>
+          <article class="portfolio-card">
+            <div class="portfolio-card__thumb portfolio-card__thumb--5" aria-hidden="true">
+              <span class="portfolio-card__thumb-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25">
+                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9zM9 22V12h6v10" />
+                </svg>
+              </span>
+            </div>
+            <div class="portfolio-card__body">
+              <span class="portfolio-card__badge">Telegram bot</span>
+              <h3 class="portfolio-card__title">Group welcome &amp; rules</h3>
+              <p class="portfolio-card__desc">
+                Captcha-style gates, welcome messages, and pinned rules for new members
+                in busy public groups.
+              </p>
+              <div class="portfolio-card__meta">
+                <span class="portfolio-pill">PTB</span>
+                <span class="portfolio-pill">Admin</span>
+              </div>
+              <button type="button" class="portfolio-card__link" data-project="welcome">
+                View details
+              </button>
+            </div>
+          </article>
+          <article class="portfolio-card">
+            <div class="portfolio-card__thumb portfolio-card__thumb--6" aria-hidden="true">
+              <span class="portfolio-card__thumb-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25">
+                  <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+                </svg>
+              </span>
+            </div>
+            <div class="portfolio-card__body">
+              <span class="portfolio-card__badge">Integration</span>
+              <h3 class="portfolio-card__title">Webhook → Telegram bridge</h3>
+              <p class="portfolio-card__desc">
+                Small FastAPI/Flask endpoint that validates payloads and posts rich
+                updates into a private admin channel.
+              </p>
+              <div class="portfolio-card__meta">
+                <span class="portfolio-pill">FastAPI</span>
+                <span class="portfolio-pill">HTTPS</span>
+              </div>
+              <button type="button" class="portfolio-card__link" data-project="webhook">
+                View details
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <div
+        id="portfolio-modal"
+        class="portfolio-modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="portfolio-modal-title"
+        hidden
+      >
+        <div class="portfolio-modal__backdrop" data-close-portfolio-modal tabindex="-1"></div>
+        <div class="portfolio-modal__panel">
+          <button type="button" class="portfolio-modal__close" data-close-portfolio-modal aria-label="Close">
+            ×
+          </button>
+          <h2 id="portfolio-modal-title" class="portfolio-modal__title"></h2>
+          <div id="portfolio-modal-body" class="portfolio-modal__body"></div>
+        </div>
+      </div>
+
+      <section id="contact" class="section contact-section">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-simple">
+          <a
+            class="contact-block"
+            href="tel:+8801859379559"
+            aria-label="Call +8801859379559"
+            title="+8801859379559"
+          >
+            <span class="contact-block__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+              </svg>
+            </span>
+          </a>
+          <a
+            class="contact-block"
+            href="mailto:mizanofficial@gmail.com"
+            aria-label="Email mizanofficial@gmail.com"
+            title="mizanofficial@gmail.com"
+          >
+            <span class="contact-block__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M4 6h16v12H4V6zm0 0l8 6 8-6" />
+              </svg>
+            </span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
